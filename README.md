@@ -2,7 +2,7 @@
 
 A Python-based computer vision application that analyzes uploaded videos with YOLOv4-tiny, converts detected objects and their approximate horizontal positions into text descriptions, and provides optional text-to-speech playback.
 
-> Current scope: The submitted implementation processes uploaded video files. It does not currently implement live camera input, OCR, scene description, or natural-language generation.
+> Current scope: the submitted implementation processes uploaded video files. It does not currently implement live camera input, OCR, scene description, or natural-language generation.
 
 ## Problem Statement
 
@@ -10,7 +10,7 @@ People with visual impairments may need accessible ways to receive information a
 
 ## Objective
 
-The objective of this project is to demonstrate a vision-to-voice pipeline that accepts a video, detects recognizable objects and people, estimates their approximate horizontal position, presents the result as text, and optionally converts it to speech.
+The objective of this project is to demonstrate a vision-to-voice pipeline that accepts a video, detects recognizable objects and people, estimates their approximate horizontal position, presents the result as text, and optionally converts the result to speech.
 
 ## Key Features
 
@@ -86,15 +86,15 @@ Optional pyttsx3 Text-to-Speech
 
 ### Prerequisites
 
-- Python installed on your computer.
+- Python 3.10 or newer is recommended.
 - A working local text-to-speech engine compatible with pyttsx3.
 - The YOLO model files included in the `yolo/` directory.
 
 ### Setup
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd vision-to-voice-guidance-assistant
+git clone https://github.com/keerthanaindurthi-blip/vision-to-voice-assistant-.git
+cd vision-to-voice-assistant-
 python -m venv .venv
 ```
 
@@ -145,14 +145,14 @@ The current detection settings in `app.py` are:
 ## Repository Structure
 
 ```text
-vision-to-voice-guidance-assistant/
+vision-to-voice-assistant-/
 ├── app.py
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── sample_cars.mp4
-├── sample_motorbikes.mp4
-├── sample_ppe.mp4
+├── cars.mp4
+├── motorbikes.mp4
+├── ppe-2.mp4
 └── yolo/
     ├── README.txt
     ├── coco.names
