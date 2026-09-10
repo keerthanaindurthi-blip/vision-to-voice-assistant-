@@ -1,5 +1,5 @@
 # Vision-to-Voice Assistant for Blind Users
-# Python 3.8+
+# Recommended Python version: 3.10+
 
 streamlit>=1.28.0
 opencv-python>=4.8.0
